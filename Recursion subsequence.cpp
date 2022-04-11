@@ -26,3 +26,14 @@ int main(){
   vector<int>ds;
   PrintSubSeqs(0,n,ds,arr);
 }
+//input
+3
+1 2 1
+//output
+1 2 1 
+1 2 
+1 1 
+1 
+2 1 
+2 
+1 
