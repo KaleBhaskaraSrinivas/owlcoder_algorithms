@@ -24,10 +24,10 @@ int main(){
   int n,t;
   cin>>n>>t;
   int arr[n];
-  int sum=0;
   for(int i=0;i<n;i++){
     cin>>arr[i];
   }
   vector<int>ds;
-  PrintSubSeqs(sum,0,t,n,ds,arr);
+  PrintSubSeqs(0,0,t,n,ds,arr);
 }
+Here sum is taken as 0
