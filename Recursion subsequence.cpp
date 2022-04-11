@@ -2,7 +2,7 @@
 using namespace std;
 void PrintSubSeqs(int ind,int n, vector<int>&ds, int arr[]){
 if(ind==n){
-for(auto it ds){
+for(auto it : ds){
 cout<<it<<" ";
 }
   cout<<"\n";
@@ -24,5 +24,5 @@ int main(){
     cin>>arr[i];
   }
   vector<int>ds;
-  PrintSubSeqs(0,n,ds,arr)
+  PrintSubSeqs(0,n,ds,arr);
 }
